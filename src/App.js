@@ -6,8 +6,8 @@ import React from "react";
 // import MyComponent from "./MyComponent";
 // import Counter from "./Counter";
 // import Say from "./Say";
-import MyComponent from "./MyComponent";
-
+// import MyComponent from "./MyComponent";
+import EventPractice from "./EventPractice";
 // const App = () => {
 //   return <MyComponent name="React" favoriteNumber={1}>태그안에 글</MyComponent>;
 // }
@@ -20,8 +20,11 @@ import MyComponent from "./MyComponent";
 //   return <Say>버튼</Say>;
 // };
 
+// const App = () => {
+//   return <MyComponent name="React" />;
+// };
 const App = () => {
-  return <MyComponent name="React" />;
+  return <EventPractice />;
 };
 
 // class App extends Component {
