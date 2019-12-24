@@ -7,7 +7,8 @@ import React from "react";
 // import Counter from "./Counter";
 // import Say from "./Say";
 // import MyComponent from "./MyComponent";
-import EventPractice from "./EventPractice";
+// import EventPractice from "./EventPractice";
+import EventPractice from "./EventPractice2";
 // const App = () => {
 //   return <MyComponent name="React" favoriteNumber={1}>태그안에 글</MyComponent>;
 // }
