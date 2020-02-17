@@ -20,7 +20,7 @@ const Info = () => {
     nickname: ""
   });
 
-  const { name, nickname } = state;
+  const { name, nickname, title } = state;
   const onChange = e => {
     console.log(e.target);
     dispatch(e.target);
@@ -31,6 +31,7 @@ const Info = () => {
       <div>
         <input name="name" value={name} onChange={onChange} />
         <input name="nickname" value={nickname} onChange={onChange} />
+        <input name="title" value={title} onChange={onChange} />
       </div>
       <div>
         <div>
@@ -40,6 +41,10 @@ const Info = () => {
         <div>
           <b>닉네임 :</b>
           {nickname}
+        </div>
+        <div>
+          <b>제목 :</b>
+          {title}
         </div>
       </div>
     </div>

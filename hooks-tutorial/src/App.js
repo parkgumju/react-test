@@ -2,14 +2,14 @@ import React from "react";
 // import Counter from "./Counter";
 // import Info from "./Info";
 // import Info2 from "./Info2";
-import Info3 from "./Info3";
+import Info3 from "./Info2";
 import Average from "./Average";
 // function App() {
 //   return <Counter></Counter>;
 // }
 
 const App = () => {
-  return <Info3></Info3>;
+  return <Average></Average>;
 };
 // const App = () => {
 //   const [visible, setVisible] = useState(false);
