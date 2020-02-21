@@ -1,3 +1,5 @@
+@import "~include-media/dist/include-media";
+@import "~open-color/open-color";
 $red: #fa5252;
 $orange: #fd7e14;
 $yellow: #40c057;
@@ -10,5 +12,3 @@ $violet: #7950f2;
   width: $calculated;
   height: $calculated;
 }
-
-
